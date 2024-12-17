@@ -13,7 +13,7 @@ interface Post {
 
 const posts: Post[] = [
   { year: "2024", title: "Making the Web. Faster.", views: 75958, slug: "rio-update-outubro-2024" },
-  { year: "2020", title: "Next for Vercel", views: 39732, slug: "next-for-vercel" },
+  { year: "2020", title: "Next for Vercel", views: 39732, slug: "raul-rio" },
   { year: "2020", title: "Books people re-read", views: 31271, slug: "books-people-reread" },
   { year: "2020", title: "Develop, Preview, Test", views: 32800, slug: "develop-preview-test" },
   { year: "2020", title: "Static Hoisting", views: 38135, slug: "static-hoisting" },
@@ -75,7 +75,6 @@ export default function Home() {
               <tr>
                 <th className="py-2 pr-8 font-normal text-left">date</th>
                 <th className="py-2 px-8 font-normal text-left">title</th>
-                <th className="py-2 pl-8 font-normal text-right">views</th>
               </tr>
             </thead>
             <tbody className="font-mono">
@@ -93,7 +92,6 @@ export default function Home() {
                     </Link>
                   </td>
                   <td className="py-2 pl-8 text-right text-muted-foreground tabular-nums">
-                    {post.views.toLocaleString()}
                   </td>
                 </tr>
               ))}
