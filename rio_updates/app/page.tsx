@@ -12,7 +12,7 @@ interface Post {
 }
 
 const posts: Post[] = [
-  { year: "2021", title: "Making the Web. Faster.", views: 75958, slug: "making-the-web-faster" },
+  { year: "2024", title: "Making the Web. Faster.", views: 75958, slug: "rio-update-outubro-2024" },
   { year: "2020", title: "Next for Vercel", views: 39732, slug: "next-for-vercel" },
   { year: "2020", title: "Books people re-read", views: 31271, slug: "books-people-reread" },
   { year: "2020", title: "Develop, Preview, Test", views: 32800, slug: "develop-preview-test" },
