@@ -1,12 +1,37 @@
-import Link from 'next/link'
-import { Moon, Sun, Twitter } from 'lucide-react'
-import { Button } from '@/components/ui/button'
+import Link from 'next/link';
+import { ArrowLeft, Moon, Sun, Twitter } from 'lucide-react';
+import { Button } from '@/components/ui/button';
 
+// Blog Post Component
+export function BlogPost({ params }: { params: { slug: string } }) {
+  return (
+    <div className="min-h-screen bg-background text-foreground antialiased">
+      <div className="mx-auto max-w-2xl px-4">
+        <header className="py-8">
+          <Link 
+            href="/"
+            className="inline-flex items-center text-sm text-muted-foreground hover:text-foreground"
+          >
+            <ArrowLeft className="mr-2 h-4 w-4" />
+            Back
+          </Link>
+        </header>
+        
+        <article className="prose prose-gray dark:prose-invert max-w-none py-8">
+          <h1>Your Blog Post Title</h1>
+          <p>Your content goes here...</p>
+        </article>
+      </div>
+    </div>
+  );
+}
+
+// Blog Posts Data
 interface BlogPost {
-  date: string
-  title: string
-  views: number
-  slug?: string
+  date: string;
+  title: string;
+  views: number;
+  slug?: string;
 }
 
 const posts: BlogPost[] = [
@@ -23,8 +48,9 @@ const posts: BlogPost[] = [
   { date: "2015", title: "Pure UI", views: 689736, slug: "pure-ui" },
   { date: "2015", title: "ECMAScript 6", views: 125951, slug: "ecmascript-6" },
   { date: "2014", title: "7 Principles of Rich Web Applications", views: 714359, slug: "7-principles" },
-]
+];
 
+// Home Page Component
 export default function Home() {
   return (
     <div className="min-h-screen bg-background text-foreground antialiased">
@@ -87,5 +113,32 @@ export default function Home() {
         </div>
       </div>
     </div>
-  )
+  );
 }
+
+// Tailwind CSS Layers
+import '@/styles/globals.css';
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 0 0% 100%;
+    --foreground: 240 10% 3.9%;
+    --muted: 240 4.8% 95.9%;
+    --muted-foreground: 240 3.8% 46.1%;
+  }
+
+  .dark {
+    --background: 240 10% 3.9%;
+    --foreground: 0 0% 98%;
+    --muted: 240 3.7% 15.9%;
+    --muted-foreground: 240 5% 64.9%;
+  }
+
+  body {
+    font-feature-settings: "rlig" 1, "calt" 1;
+  }
+}
+
