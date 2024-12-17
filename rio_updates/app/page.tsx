@@ -14,7 +14,7 @@ interface Post {
 const posts: Post[] = [
   { year: "2024", title: "Novembro e Dezembro", views: 75958, slug: "rio-update-novembro-dezembro-2024" },
   { year: "2024", title: "Outubro", views: 39732, slug: "rio-update-outubro-2024" },
-  { year: "2020", title: "Books people re-read", views: 31271, slug: "raul-rio" },
+  { year: "2020", title: "Setembro", views: 31271, slug: "rio-update-setembro-2024" },
   { year: "2020", title: "Develop, Preview, Test", views: 32800, slug: "develop-preview-test" },
   { year: "2020", title: "Static Hoisting", views: 38135, slug: "static-hoisting" },
   { year: "2020", title: "An ode to code golf", views: 16917, slug: "code-golf" },
