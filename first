@@ -1,0 +1,91 @@
+import Link from 'next/link'
+import { Moon, Sun, Twitter } from 'lucide-react'
+import { Button } from '@/components/ui/button'
+
+interface BlogPost {
+  date: string
+  title: string
+  views: number
+  slug?: string
+}
+
+const posts: BlogPost[] = [
+  { date: "2021", title: "Making the Web. Faster.", views: 75958, slug: "making-the-web-faster" },
+  { date: "2020", title: "Next for Vercel", views: 39732, slug: "next-for-vercel" },
+  { date: "2020", title: "Books people re-read", views: 31271, slug: "books-people-reread" },
+  { date: "2020", title: "Develop, Preview, Test", views: 32800, slug: "develop-preview-test" },
+  { date: "2020", title: "Static Hoisting", views: 38135, slug: "static-hoisting" },
+  { date: "2020", title: "An ode to code golf", views: 16917, slug: "code-golf" },
+  { date: "2020", title: "Vercel", views: 58673, slug: "vercel" },
+  { date: "2020", title: "2019 in Review", views: 65142, slug: "2019-in-review" },
+  { date: "2017", title: "It's Hard to Forego Efficiency", views: 44818, slug: "hard-to-forego-efficiency" },
+  { date: "2016", title: "Addressable Errors", views: 21869, slug: "addressable-errors" },
+  { date: "2015", title: "Pure UI", views: 689736, slug: "pure-ui" },
+  { date: "2015", title: "ECMAScript 6", views: 125951, slug: "ecmascript-6" },
+  { date: "2014", title: "7 Principles of Rich Web Applications", views: 714359, slug: "7-principles" },
+]
+
+export default function Home() {
+  return (
+    <div className="min-h-screen bg-background text-foreground antialiased">
+      <div className="mx-auto max-w-2xl px-4">
+        {/* Header */}
+        <header className="py-8 flex items-center justify-between">
+          <h1 className="text-lg font-medium">Your Name</h1>
+          <nav className="flex items-center gap-4">
+            <Button
+              variant="ghost"
+              size="icon"
+              className="text-muted-foreground hover:text-foreground"
+            >
+              <Sun className="h-4 w-4 rotate-0 scale-100 transition-all dark:-rotate-90 dark:scale-0" />
+              <Moon className="absolute h-4 w-4 rotate-90 scale-0 transition-all dark:rotate-0 dark:scale-100" />
+              <span className="sr-only">Toggle theme</span>
+            </Button>
+            <Link href="/about" className="text-sm text-muted-foreground hover:text-foreground">
+              About
+            </Link>
+            <Link
+              href="https://twitter.com/yourusername"
+              className="text-sm text-muted-foreground hover:text-foreground inline-flex items-center gap-1"
+            >
+              <Twitter className="h-4 w-4" />
+              Follow me
+            </Link>
+          </nav>
+        </header>
+
+        {/* Blog Posts Table */}
+        <div className="py-8">
+          <table className="w-full">
+            <thead className="text-sm text-muted-foreground">
+              <tr>
+                <th className="pb-4 font-normal text-left">date</th>
+                <th className="pb-4 font-normal text-left">title</th>
+                <th className="pb-4 font-normal text-right">views</th>
+              </tr>
+            </thead>
+            <tbody className="text-sm">
+              {posts.map((post) => (
+                <tr key={post.slug} className="group">
+                  <td className="py-2 pr-4 align-top">{post.date}</td>
+                  <td className="py-2 pr-4">
+                    <Link
+                      href={`/blog/${post.slug}`}
+                      className="group-hover:underline decoration-muted-foreground/30"
+                    >
+                      {post.title}
+                    </Link>
+                  </td>
+                  <td className="py-2 text-right tabular-nums text-muted-foreground">
+                    {post.views.toLocaleString()}
+                  </td>
+                </tr>
+              ))}
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  )
+}
