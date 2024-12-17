@@ -142,3 +142,23 @@ import '@/styles/globals.css';
   }
 }
 
+// Static Paths and Props for Dynamic Route
+export async function getStaticPaths() {
+  const slugs = posts.map(post => post.slug);
+  const paths = slugs.map(slug => ({ params: { slug } }));
+
+  return {
+    paths,
+    fallback: false,
+  };
+}
+
+export async function getStaticProps({ params }: { params: { slug: string } }) {
+  const post = posts.find(p => p.slug === params.slug);
+
+  return {
+    props: {
+      params: { slug: post?.slug || '' },
+    },
+  };
+}
