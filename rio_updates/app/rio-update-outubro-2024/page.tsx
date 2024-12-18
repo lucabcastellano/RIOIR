@@ -19,7 +19,7 @@ export default function BlogPost() {
 
         <article className="py-8">
           <header className="mb-8">
-            <h1 className="text-3xl font-bold mb-2">RIO Endowment Update: Setembro de 2024</h1>
+            <h1 className="text-3xl font-bold mb-2">RIO Endowment Update: Outubro de 2024</h1>
             <div className="text-sm text-muted-foreground">
               Oct 2, 2024
             </div>
@@ -38,7 +38,7 @@ export default function BlogPost() {
             </p>
 
             <p>
-              Bem-vindos ao nosso report do mês de Setembro de 2024.
+              Bem-vindos ao nosso report do mês de Outubro de 2024.
             </p>
 
             <h2 className="text-xl font-bold mt-12 mb-4 flex items-center gap-2">
@@ -47,9 +47,8 @@ export default function BlogPost() {
 
             <ul className="list-disc pl-4 space-y-4">
               <li>
-                Notícia mais importante de todas - estamos próximos de conseguir todos os prometidos R$197.000,00 
-                para Outubro na nossa conta do BTG. Marco bem importante; faltam apenas 3 doadores honrarem com o 
-                compromisso de fazê-lo (todos eles já estão em vias de transferir o dinheiro, não teremos problemas).
+                Rompemos a barreira dos R$200K captados, agora com R$205K. Com exceção de um, que desistiu da doação, todos os outros doadores que prometeram, doaram. Outro doador, que havia prometido R$5K em Outubro, vai fazer a doação ainda em Novembro.
+
               </li>
               <li>
                 Temos R$197.000,00 prometidos para Outubro, e mais R$13.000,000 já prometidos para Novembro. 
