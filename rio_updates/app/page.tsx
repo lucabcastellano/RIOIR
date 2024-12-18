@@ -12,10 +12,14 @@ interface Post {
 }
 
 const posts: Post[] = [
-  { year: "2024", title: "Novembro e Dezembro", views: 75958, slug: "rio-update-novembro-dezembro-2024" },
-  { year: "2024", title: "Outubro", views: 39732, slug: "rio-update-outubro-2024" },
-  { year: "2024", title: "Setembro", views: 31271, slug: "rio-update-setembro-2024" },
-  { year: "2024", title: "Agosto", views: 32800, slug: "rio-update-agosto-2024" },
+  { year: "2024", title: "RIO Endowment Update: Novembro e Dezembro de 2024", views: 0, slug: "rio-endowment-update-novembro-dezembro-2024" },
+  { year: "2024", title: "RIO Endowment Update: Outubro de 2024", views: 0, slug: "rio-endowment-update-outubro-2024" },
+  { year: "2024", title: "RIO Endowment Update: Setembro de 2024", views: 0, slug: "rio-endowment-update-setembro-2024-full" },
+  { year: "2024", title: "RIO Endowment Update: Agosto de 2024", views: 0, slug: "rio-endowment-update-agosto-2024" },
+  { year: "2021", title: "Making the Web. Faster.", views: 75958, slug: "making-the-web-faster" },
+  { year: "2020", title: "Next for Vercel", views: 39732, slug: "next-for-vercel" },
+  { year: "2020", title: "Books people re-read", views: 31271, slug: "books-people-reread" },
+  { year: "2020", title: "Develop, Preview, Test", views: 32800, slug: "develop-preview-test" },
   { year: "2020", title: "Static Hoisting", views: 38135, slug: "static-hoisting" },
   { year: "2020", title: "An ode to code golf", views: 16917, slug: "code-golf" },
   { year: "2020", title: "Vercel", views: 58673, slug: "vercel" },
@@ -44,7 +48,7 @@ export default function Home() {
       <div className="mx-auto max-w-2xl px-6">
         <header className="py-8 flex items-center justify-between">
           <h1 className="text-lg font-medium tracking-tight">
-            <Link href="/">RIO Endowment</Link>
+            <Link href="/">Guillermo Rauch</Link>
           </h1>
           <nav className="flex items-center space-x-6">
             <button
@@ -75,6 +79,7 @@ export default function Home() {
               <tr>
                 <th className="py-2 pr-8 font-normal text-left">date</th>
                 <th className="py-2 px-8 font-normal text-left">title</th>
+                <th className="py-2 pl-8 font-normal text-right">views</th>
               </tr>
             </thead>
             <tbody className="font-mono">
@@ -85,13 +90,14 @@ export default function Home() {
                   </td>
                   <td className="py-2 px-8">
                     <Link
-                      href={/${post.slug}}
+                      href={`/${post.slug}`}
                       className="group-hover:underline decoration-muted-foreground/30"
                     >
                       {post.title}
                     </Link>
                   </td>
                   <td className="py-2 pl-8 text-right text-muted-foreground tabular-nums">
+                    {post.views.toLocaleString()}
                   </td>
                 </tr>
               ))}
@@ -102,3 +108,4 @@ export default function Home() {
     </div>
   )
 }
+
