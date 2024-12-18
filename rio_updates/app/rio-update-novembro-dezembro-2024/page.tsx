@@ -19,9 +19,9 @@ export default function BlogPost() {
 
         <article className="py-8">
           <header className="mb-8">
-            <h1 className="text-3xl font-bold mb-2">RIO Endowment Update: Outubro de 2024</h1>
+            <h1 className="text-3xl font-bold mb-2">RIO Endowment Update: Novembro e Dezembro de 2024</h1>
             <div className="text-sm text-muted-foreground">
-              Nov 2, 2024
+              Dez 18, 2024
             </div>
           </header>
 
@@ -38,7 +38,7 @@ export default function BlogPost() {
             </p>
 
             <p>
-              Bem-vindos ao nosso report do mês de Outubro de 2024.
+              Bem-vindos ao nosso report do mês de Novembro e Dezembro de 2024.
             </p>
 
             <h2 className="text-xl font-bold mt-12 mb-4 flex items-center gap-2">
@@ -47,17 +47,13 @@ export default function BlogPost() {
 
             <ul className="list-disc pl-4 space-y-4">
               <li>
-                Rompemos a barreira dos R$200K captados, agora com R$205K. Com exceção de um, que desistiu da doação, todos os outros doadores que prometeram, doaram. Outro doador, que havia prometido R$5K em Outubro, vai fazer a doação ainda em Novembro.
-
+                Os meses de Novembro e Dezembro foram ultra focados em organização da casa e construção de relacionamentos. Encontramos muitas pessoas importantes e relevantes do ecossistema nesses dois últimos meses.
               </li>
               <li>
-                ⁠Temos mais R$18K prometidos para Novembro de três doadores diferentes. Isso nos leva a R$223K já garantidos em promessas ao final do mês.
+                Seguimos com R$205K captados, e as duas doações que haviam sido prometidos para o mês de Dezembro não foram realizadas.
               </li>
               <li>
-                Demos boas vindas à nossa 4ª Conselheira de Administração. Mais detalhes abaixo.
-              </li>
-              <li>
-                No dia 9 de Novembro, sábado, teremos nosso primeiro Comitê de Seleção das Bolsas RIO, no qual o Comitê determinará como será distribuído o R$ entre os nossos alunos que aplicaram para o nosso edital. Investiremos nos primeiros alunos em breve.
+                Escolhemos os alunos que receberão as primeiras bolsas RIO. 
               </li>
             </ul>
 
@@ -72,19 +68,16 @@ export default function BlogPost() {
 
             <ol className="list-decimal pl-4 space-y-4">
               <li>
-                ✅ Passo 1 é receber as doações, o que já está acontecendo. Como mencionado acima, hoje estamos com R$205K captados.
+                Realizamos o Comitê de Seleção e escolhemos 3 alunos para receberem R$400 mensais.
               </li>
               <li>
-                ✅ Passo 2 é investir o dinheiro, com o menor risco possível. Um comitê interno do RIO, assessorado por um escritório do BTG, realizará o investimento.
+                Em parceria com o BRASAS, daremos outras 6 bolsas de cursos de inglês.
               </li>
               <li>
-                ✅ Passo 3 é repassar o edital de mentoria para os nossos alunos. Este edital está pronto e vocês podem acessá-lo através deste link aqui. Aliás, agora com as inscrições encerradas, tivemos o dobro de inscrições do que esperávamos no Bolsa RIO.
+                Os alunos estão muito felizes, colocaram em seus Linkedin que são bolsistas RIO. Para mais informações, acessem https://www.rioendowment.com/bolsa-rio-aprovados-2024
               </li>
               <li>
-                O passo 4 é uma sessão de pitch dos alunos para o Comitê de Seleção, um grupo de 4 pessoas, todas indicadas pelo nosso Conselho de Administração. Ao final da sessão de pitch, os membros do comitê vão escolher os alunos que serão apoiados pelo RIO (e os detalhes do benefício concedido). A reunião ocorrerá no dia 9 de Novembro.
-              </li>
-              <li>
-                O passo 5 é o investimento no aluno e acompanhamento do nosso impacto social. É o momento em que a sua doação cria novas oportunidade e um presente melhor para os futuros profissionais do Rio de Janeiro.
+                O próximo passo é passar o investimento em Janeiro, quando começa o ano letivo, e realizar o acompanhamento.
               </li>
             </ol>
 
