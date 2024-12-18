@@ -51,16 +51,13 @@ export default function BlogPost() {
 
               </li>
               <li>
-                Temos R$197.000,00 prometidos para Outubro, e mais R$13.000,000 já prometidos para Novembro. 
-                No total, logo, são R$210.000,00 prometidos ao RIO Endowment até então.
+                ⁠Temos mais R$18K prometidos para Novembro de três doadores diferentes. Isso nos leva a R$223K já garantidos em promessas ao final do mês.
               </li>
               <li>
-                Esta chamada de capital é importante porque em Novembro faremos nossos primeiros investimentos em alunos. 
-                Na próxima seção vocês encontrarão em detalhe sobre como funcionará este processo.
+                Demos boas vindas à nossa 4ª Conselheira de Administração. Mais detalhes abaixo.
               </li>
               <li>
-                Para novas doações, nosso PIX é{' '}
-                <code className="bg-muted px-1 rounded">doe@rioendowment.com</code> (BTG)
+                No dia 9 de Novembro, sábado, teremos nosso primeiro Comitê de Seleção das Bolsas RIO, no qual o Comitê determinará como será distribuído o R$ entre os nossos alunos que aplicaram para o nosso edital. Investiremos nos primeiros alunos em breve.
               </li>
             </ul>
 
@@ -75,25 +72,19 @@ export default function BlogPost() {
 
             <ol className="list-decimal pl-4 space-y-4">
               <li>
-                O passo 1 é receber as doações, o que já está acontecendo. Como mencionado acima, 
-                hoje estamos na reta final de receber os R$197.000,00 prometidos para Outubro.
+                ✅ Passo 1 é receber as doações, o que já está acontecendo. Como mencionado acima, hoje estamos com R$205K captados.
               </li>
               <li>
-                O passo 2 é investir o dinheiro, com o menor risco possível. Um comitê interno do RIO, 
-                assessorado por um escritório do BTG, AW Capital, realizará o investimento.
+                ✅ Passo 2 é investir o dinheiro, com o menor risco possível. Um comitê interno do RIO, assessorado por um escritório do BTG, realizará o investimento.
               </li>
               <li>
-                O passo 3 é repassar o edital de mentoria para os nossos alunos. Este edital está pronto 
-                e vocês podem acessá-lo através deste link aqui. Lembrete importante: os alunos que participaram 
-                do programa de mentoria não são os únicos elegíveis para participarem deste edital, mas têm um 
-                peso relevante no processo.
+                ✅ Passo 3 é repassar o edital de mentoria para os nossos alunos. Este edital está pronto e vocês podem acessá-lo através deste link aqui. Aliás, agora com as inscrições encerradas, tivemos o dobro de inscrições do que esperávamos no Bolsa RIO.
               </li>
               <li>
-                O passo 4 é uma sessão de pitch dos alunos para o Comitê de Seleção, um grupo de 3 pessoas, 
-                todas indicadas pelo nosso Conselho de Administração.
+                O passo 4 é uma sessão de pitch dos alunos para o Comitê de Seleção, um grupo de 4 pessoas, todas indicadas pelo nosso Conselho de Administração. Ao final da sessão de pitch, os membros do comitê vão escolher os alunos que serão apoiados pelo RIO (e os detalhes do benefício concedido). A reunião ocorrerá no dia 9 de Novembro.
               </li>
               <li>
-                O passo 5 é o investimento no aluno e acompanhamento do nosso impacto social.
+                O passo 5 é o investimento no aluno e acompanhamento do nosso impacto social. É o momento em que a sua doação cria novas oportunidade e um presente melhor para os futuros profissionais do Rio de Janeiro.
               </li>
             </ol>
 
@@ -102,8 +93,8 @@ export default function BlogPost() {
             <ul className="list-disc pl-4 space-y-2">
               <li>Vamos investir nos primeiros alunos em Novembro;</li>
               <li>Os alunos serão escolhidos pelo Comitê de Seleção do RIO;</li>
-              <li>Estimamos R$600 para cada um dos 3 alunos beneficiários, mas quem decide isso é o Comitê;</li>
-              <li>Quem quiser doar, nosso pix é doe@rioendowment.com.</li>
+              <li>O Comitê será realizado no dia 9 de Novembro, sábado;;</li>
+              <li>O Comitê é o responsável por deliberar e decidir acerca do investimento que será feito (tanto para número de alunos como para valor da bolsa)</li>
             </ul>
 
             <h2 className="text-xl font-bold mt-12 mb-4 flex items-center gap-2">
@@ -111,15 +102,14 @@ export default function BlogPost() {
             </h2>
 
             <ul className="list-disc pl-4 space-y-4">
-              <li>O Edital para a primeira concessão de apoio financeiro do RIO Endowment está pronto;</li>
+              <li>O Demos boas vindas à Silvia Motta como mais novo membro do Conselho de Administração e Doadora do RIO. Silvia traz um background impressionante em finanças e estratégia, com passagens por Movile, Coca-Cola, Sympla, Harvard e atual CFO da Hashdex. Silvia chega para colaborar principalmente na frente de captação. Estamos muito felizes com sua chegada.;</li>
               <li>
-                Demos boas-vindas a dois profissionais sênior que vão ajudar nosso time com People e Compliance. 
-                A Ana, que vem da B Hub, Quinto Andar e Fundação Estudar. O Rodrigo, que vem do BofA, BTG Pactual e EY.
+                Avançamos muito bem na frente de People, com novas contratações para a equipe sob a liderança da Ana Carolina Pêgo. Estruturamos e implementamos processos, estamos criando engajamento e coesão no trabalho dos voluntários, e abrimos um canal de comunicação recorrente dos voluntários com o time de People (que agora conta com pessoas mais sênior na equipe).
               </li>
               <li>
-                Estamos animados para a primeira leva de concessão de incentivo da história do RIO.
+                Abrimos novas frentes grandes de captação e as perspectivas são boas - principalmente acompanhado do 1º investimento que faremos nos alunos durante os próximos dias. Acreditamos que quanto melhor o trabalho que fizermos com os alunos que investiremos, maior o potencial de captação com o mercado. 
               </li>
-              <li>Continuamos construindo relacionamento com stakeholders importantes.</li>
+              <li>2 voluntários do RIO mudaram de emprego, com promoções, devido ao relacionamento proporcionado pelo RIO Endowment. Isso é ótimo e aumenta o engajamento deles nas propostas que temos aqui.</li>
             </ul>
 
             <h2 className="text-xl font-bold mt-12 mb-4 flex items-center gap-2">
