@@ -7,28 +7,15 @@ import Link from 'next/link'
 interface Post {
   year: string
   title: string
-  views: number
+  //  views: number
   slug: string
 }
 
 const posts: Post[] = [
-  { year: "2024", title: "RIO Endowment Update: Oovembro e Dezembro de 2024", views: 0, slug: "rio-endowment-update-novembro-dezembro-2024" },
-  { year: "2024", title: "RIO Endowment Update: Outubro de 2024", views: 0, slug: "rio-endowment-update-outubro-2024" },
-  { year: "2024", title: "RIO Endowment Update: Setembro de 2024", views: 0, slug: "rio-endowment-update-setembro-2024-full" },
-  { year: "2024", title: "RIO Endowment Update: Agosto de 2024", views: 0, slug: "rio-endowment-update-agosto-2024" },
-  { year: "2021", title: "Making the Web. Faster.", views: 75958, slug: "making-the-web-faster" },
-  { year: "2020", title: "Next for Vercel", views: 39732, slug: "next-for-vercel" },
-  { year: "2020", title: "Books people re-read", views: 31271, slug: "books-people-reread" },
-  { year: "2020", title: "Develop, Preview, Test", views: 32800, slug: "develop-preview-test" },
-  { year: "2020", title: "Static Hoisting", views: 38135, slug: "static-hoisting" },
-  { year: "2020", title: "An ode to code golf", views: 16917, slug: "code-golf" },
-  { year: "2020", title: "Vercel", views: 58673, slug: "vercel" },
-  { year: "2020", title: "2019 in Review", views: 65142, slug: "2019-in-review" },
-  { year: "2017", title: "It's Hard to Forego Efficiency", views: 44818, slug: "hard-to-forego-efficiency" },
-  { year: "2016", title: "Addressable Errors", views: 21869, slug: "addressable-errors" },
-  { year: "2015", title: "Pure UI", views: 689736, slug: "pure-ui" },
-  { year: "2015", title: "ECMAScript 6", views: 125951, slug: "ecmascript-6" },
-  { year: "2014", title: "7 Principles of Rich Web Applications", views: 714359, slug: "7-principles" },
+  { year: "2024", title: "RIO Endowment Update: Novembro e Dezembro de 2024", slug: "rio-endowment-update-novembro-dezembro-2024" },
+  { year: "2024", title: "RIO Endowment Update: Outubro de 2024", slug: "rio-endowment-update-outubro-2024" },
+  { year: "2024", title: "RIO Endowment Update: Setembro de 2024", slug: "rio-endowment-update-setembro-2024" },
+  { year: "2024", title: "RIO Endowment Update: Agosto de 2024",  slug: "rio-endowment-update-agosto-2024" },
 ]
 
 export default function Home() {
@@ -79,7 +66,6 @@ export default function Home() {
               <tr>
                 <th className="py-2 pr-8 font-normal text-left">date</th>
                 <th className="py-2 px-8 font-normal text-left">title</th>
-                <th className="py-2 pl-8 font-normal text-right">views</th>
               </tr>
             </thead>
             <tbody className="font-mono">
@@ -95,9 +81,6 @@ export default function Home() {
                     >
                       {post.title}
                     </Link>
-                  </td>
-                  <td className="py-2 pl-8 text-right text-muted-foreground tabular-nums">
-                    {post.views.toLocaleString()}
                   </td>
                 </tr>
               ))}
