@@ -21,7 +21,7 @@ export default function BlogPost() {
           <header className="mb-8">
             <h1 className="text-3xl font-bold mb-2">RIO Endowment Update: Outubro de 2024</h1>
             <div className="text-sm text-muted-foreground">
-              Oct 2, 2024
+              Nov 2, 2024
             </div>
           </header>
 
