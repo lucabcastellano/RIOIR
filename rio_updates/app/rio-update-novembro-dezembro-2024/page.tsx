@@ -53,8 +53,7 @@ export default function BlogPost() {
                 Seguimos com R$205K captados, e as duas doações que haviam sido prometidos para o mês de Dezembro não foram realizadas.
               </li>
               <li>
-                Escolhemos os alunos que receberão as primeiras bolsas RIO. 
-              </li>
+                Selecionamos os alunos que receberão as primeiras bolsas RIO. Compartilhamos detalhes gerais abaixo, mas, para manter o relatório objetivo, não incluímos as histórias completas de cada bolsista. Caso queira mais informações, estamos à disposição.</li>
             </ul>
 
             <h2 className="text-xl font-bold mt-12 mb-4 flex items-center gap-2">
@@ -86,14 +85,14 @@ export default function BlogPost() {
             </h2>
 
             <ul className="list-disc pl-4 space-y-4">
-              <li>Realizamos os primeiros investimentos do RIO. Turning point 100% para nós.;</li>
+              <li>Realizamos os primeiros investimentos do RIO. Turning point 100% para nós.</li>
               <li>
                 Ganhamos bastante agilidade em processos de captação no final do ano. Apostamos que a construção de relacionamento nos dê bons frutos nos próximos meses.
               </li>
               <li>
                 Criamos a área de People Analytics e contratamos pessoas sênior para a equipe. Estamos em um processo de trazer pessoas mais experientes para a operação. 
               </li>
-              <li>2 voluntários do RIO mudaram de emprego, com promoções, devido ao relacionamento proporcionado pelo RIO Endowment. Isso é ótimo e aumenta o engajamento deles nas propostas que temos aqui.</li>
+              <li>2Estruturação e desenvolvimento da 1a e da 2a turma de mentoria, em parceira com o Instituto Consuelo</li>
             </ul>
 
             <h2 className="text-xl font-bold mt-12 mb-4 flex items-center gap-2">
@@ -101,7 +100,7 @@ export default function BlogPost() {
             </h2>
 
             <ul className="list-disc pl-4 space-y-2">
-              <li>Adoraríamos novas conexões com potenciais doadores :)</li>
+              <li>Encontramos um nicho muito interessante de captação com pessoas do mercado financeiro do Rio de Janeiro. Se conhecerem pessoas neste meio, não hesitem em nos colocar em contato.</li>
               <li>Nosso PIX é doe@rioendowment.com.</li>
             </ul>
 
@@ -112,13 +111,8 @@ export default function BlogPost() {
             <p>Daqui pra frente são três as prioridades do RIO Endowment:</p>
 
             <ol className="list-decimal pl-4 space-y-2">
-              <li>Realizar a primeira concessão das Bolsas RIO com sucesso;</li>
+              <li>Realizar o acompanhamento dos primeiros investimentos que fizemos.</li>
               <li>Continuar captando, ativamente;</li>
-              <li>
-                Começar a segunda turma de mentoria, desta vez com o Instituto Consuelo. 
-                Ela vai obedecer a mesma lógica da primeira (mentoria por 2 meses, resultados, edital, bolsa). 
-                Mais detalhes sobre ela no próximo report.
-              </li>
             </ol>
 
             <div className="mt-12 pt-8 border-t">
