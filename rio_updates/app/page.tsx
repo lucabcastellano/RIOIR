@@ -15,16 +15,7 @@ const posts: Post[] = [
   { year: "2024", title: "Novembro e Dezembro", views: 75958, slug: "rio-update-novembro-dezembro-2024" },
   { year: "2024", title: "Outubro", views: 39732, slug: "rio-update-outubro-2024" },
   { year: "2024", title: "Setembro", views: 31271, slug: "rio-update-setembro-2024" },
-  { year: "2024", title: "Agosto", views: 32800, slug: "rio-update-agosto-2024" },
-  { year: "2020", title: "Static Hoisting", views: 38135, slug: "static-hoisting" },
-  { year: "2020", title: "An ode to code golf", views: 16917, slug: "code-golf" },
-  { year: "2020", title: "Vercel", views: 58673, slug: "vercel" },
-  { year: "2020", title: "2019 in Review", views: 65142, slug: "2019-in-review" },
-  { year: "2017", title: "It's Hard to Forego Efficiency", views: 44818, slug: "hard-to-forego-efficiency" },
-  { year: "2016", title: "Addressable Errors", views: 21869, slug: "addressable-errors" },
-  { year: "2015", title: "Pure UI", views: 689736, slug: "pure-ui" },
-  { year: "2015", title: "ECMAScript 6", views: 125951, slug: "ecmascript-6" },
-  { year: "2014", title: "7 Principles of Rich Web Applications", views: 714359, slug: "7-principles" },
+  { year: "2024", title: "Agosto", views: 32800, slug: "rio-update-agosto-2024" }
 ]
 
 export default function Home() {
@@ -102,4 +93,3 @@ export default function Home() {
     </div>
   )
 }
-
