@@ -35,7 +35,7 @@ export default function Home() {
       <div className="mx-auto max-w-2xl px-6">
         <header className="py-8 flex items-center justify-between">
           <h1 className="text-lg font-medium tracking-tight">
-            <Link href="/">Guillermo Rauch</Link>
+            <Link href="/">Rio Endowment - Investor Updates</Link>
           </h1>
           <nav className="flex items-center space-x-6">
             <button
