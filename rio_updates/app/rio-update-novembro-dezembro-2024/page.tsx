@@ -81,26 +81,17 @@ export default function BlogPost() {
               </li>
             </ol>
 
-            <h2 className="text-xl font-bold mt-12 mb-4">TLDV</h2>
-
-            <ul className="list-disc pl-4 space-y-2">
-              <li>Vamos investir nos primeiros alunos em Novembro;</li>
-              <li>Os alunos serão escolhidos pelo Comitê de Seleção do RIO;</li>
-              <li>O Comitê será realizado no dia 9 de Novembro, sábado;;</li>
-              <li>O Comitê é o responsável por deliberar e decidir acerca do investimento que será feito (tanto para número de alunos como para valor da bolsa)</li>
-            </ul>
-
             <h2 className="text-xl font-bold mt-12 mb-4 flex items-center gap-2">
               📍Highlights
             </h2>
 
             <ul className="list-disc pl-4 space-y-4">
-              <li>O Demos boas vindas à Silvia Motta como mais novo membro do Conselho de Administração e Doadora do RIO. Silvia traz um background impressionante em finanças e estratégia, com passagens por Movile, Coca-Cola, Sympla, Harvard e atual CFO da Hashdex. Silvia chega para colaborar principalmente na frente de captação. Estamos muito felizes com sua chegada.;</li>
+              <li>Realizamos os primeiros investimentos do RIO. Turning point 100% para nós.;</li>
               <li>
-                Avançamos muito bem na frente de People, com novas contratações para a equipe sob a liderança da Ana Carolina Pêgo. Estruturamos e implementamos processos, estamos criando engajamento e coesão no trabalho dos voluntários, e abrimos um canal de comunicação recorrente dos voluntários com o time de People (que agora conta com pessoas mais sênior na equipe).
+                Ganhamos bastante agilidade em processos de captação no final do ano. Apostamos que a construção de relacionamento nos dê bons frutos nos próximos meses.
               </li>
               <li>
-                Abrimos novas frentes grandes de captação e as perspectivas são boas - principalmente acompanhado do 1º investimento que faremos nos alunos durante os próximos dias. Acreditamos que quanto melhor o trabalho que fizermos com os alunos que investiremos, maior o potencial de captação com o mercado. 
+                Criamos a área de People Analytics e contratamos pessoas sênior para a equipe. Estamos em um processo de trazer pessoas mais experientes para a operação. 
               </li>
               <li>2 voluntários do RIO mudaram de emprego, com promoções, devido ao relacionamento proporcionado pelo RIO Endowment. Isso é ótimo e aumenta o engajamento deles nas propostas que temos aqui.</li>
             </ul>
