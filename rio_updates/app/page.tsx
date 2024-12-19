@@ -51,7 +51,7 @@ export default function Home() {
               About
             </Link>
             <Link
-              href="https://twitter.com/rauchg"
+              href="https://www.rioendowment.com/"
               className="text-sm text-muted-foreground hover:text-foreground inline-flex items-center"
             >
               <Twitter className="h-4 w-4 mr-1" />
