@@ -45,7 +45,7 @@ export default function Home() {
               {isDark ? <Moon className="h-4 w-4" /> : <Sun className="h-4 w-4" />}
             </button>
             <Link 
-              href="/about"
+              href="https://www.rioendowment.com/"
               className="text-sm text-muted-foreground hover:text-foreground"
             >
               About
