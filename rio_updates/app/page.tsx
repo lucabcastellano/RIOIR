@@ -1,7 +1,7 @@
 'use client'
 
 import { useState, useEffect } from 'react'
-import { Moon, Sun, Twitter } from 'lucide-react'
+import { Moon, Sun } from 'lucide-react'
 import Link from 'next/link'
 
 interface Post {
@@ -50,13 +50,6 @@ export default function Home() {
             >
               About
             </Link>
-            <Link
-              href="https://www.rioendowment.com/"
-              className="text-sm text-muted-foreground hover:text-foreground inline-flex items-center"
-            >
-              <Twitter className="h-4 w-4 mr-1" />
-              Follow me
-            </Link>
           </nav>
         </header>
 
@@ -91,4 +84,3 @@ export default function Home() {
     </div>
   )
 }
-
