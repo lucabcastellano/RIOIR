@@ -13,7 +13,7 @@ interface Post {
 
 const posts: Post[] = [
   { year: "2024", title: "RIO Endowment Update: Novembro e Dezembro de 2024", slug: "rio-endowment-update-novembro-dezembro-2024" },
-  { year: "2024", title: "RIO Endowment Update: OOutubro de 2024", slug: "rio-endowment-update-outubro-2024" },
+  { year: "2024", title: "RIO Endowment Update: Outubro de 2024", slug: "rio-endowment-update-outubro-2024" },
   { year: "2024", title: "RIO Endowment Update: Setembro de 2024", slug: "rio-endowment-update-setembro-2024" },
   { year: "2024", title: "RIO Endowment Update: Agosto de 2024",  slug: "rio-endowment-update-agosto-2024" },
 ]
